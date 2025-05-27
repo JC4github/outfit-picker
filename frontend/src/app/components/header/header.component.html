@@ -1,0 +1,24 @@
+<header class="header">
+    <button mat-icon-button class="menu-button" [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+    </button>
+    
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Home</button>
+        <button mat-menu-item>Add Top</button>
+        <button mat-menu-item>Add Bottom</button>
+        <button mat-menu-item>Add Shoes</button>
+        <button mat-menu-item>Logout</button>
+    </mat-menu>
+    
+    <span class="spacer"></span>
+    
+    <div class="style-score">
+        <div>
+            Style Score
+        </div>
+        <div>
+            12,345 <mat-icon inline>arrow_back</mat-icon>
+        </div> 
+    </div>
+</header>

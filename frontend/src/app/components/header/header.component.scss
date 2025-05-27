@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 60px;
+    
+}
+
+.spacer {
+    flex: 1;
+}
+
+.style-score {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #AE6D22; // Example: Material Indigo
+    text-align: right;
+
+    div:last-child {
+        display: flex;
+        align-items: center;
+        gap: 4px; // space between number and icon
+    }
+
+    mat-icon {
+        font-size: 20px;
+        color: #AE6D22; // Example: Material Red 
+        }
+}
+
+.menu-icon {
+    font-size: 32px; // (default is 24px)
+    line-height: 56px;
+    color: #AE6D22; // 
+}
+
+.menu-button {
+    width: 48px;
+    height: 48px;
+    
+}
+
+.menu-button mat-icon{
+    color: #AE6D22;
+    font-size: 30px; // Larger icon
+    line-height: 30px; // Vertically center
+}
+
