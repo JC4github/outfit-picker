@@ -1,0 +1,13 @@
+.outfit-viewer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .outfit-image {
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: contain;
+  }
+  

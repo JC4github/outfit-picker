@@ -1,6 +1,16 @@
 <div class="home-container">
     <div class="hero">
         <app-header></app-header>
-        <img src="assets\images\outfit-bg.png" alt="Outfit selection background" class="hero-image">
+        <div class="grid-container">
+            <div>
+                <prev-button (clicked)="goPrev()"></prev-button>
+            </div>
+            <div class="outfit-container">
+                <app-outfit-viewer [image]="currentImage"></app-outfit-viewer>
+            </div>
+            <div>
+                <next-button (clicked)="goNext()"></next-button>
+            </div>
+        </div>
     </div>
 </div>
